@@ -7,6 +7,7 @@
 //
 
 #import "PViewController.h"
+#import <PUtil.h>
 
 @interface PViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   
+    [UIColor colorWithHexString:@""];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

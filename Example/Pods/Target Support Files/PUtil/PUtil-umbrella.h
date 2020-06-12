@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIColor+PPHex.h"
+#import "PUtil.h"
 
 FOUNDATION_EXPORT double PUtilVersionNumber;
 FOUNDATION_EXPORT const unsigned char PUtilVersionString[];

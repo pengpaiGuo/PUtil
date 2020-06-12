@@ -10,6 +10,22 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PUtil/Classes/**/*'
+  s.source_files = 'PUtil/Classes/*.h'
 
+  #s.public_header_files = 'PUtil/Classes/**/*.h'
+  
+  s.subspec 'Extensions' do |ss|
+    ss.source_files = 'PUtil/Classes/Extensions/*.{h,m}'
+  end
+  s.subspec 'first' do |ss|
+    ss.source_files = 'PUtil/Classes/first/*.{h,m}'
+  end
+
+  s.subspec 'second' do |ss|
+    ss.source_files = 'PUtil/Classes/first/*.{h,m}'
+  end
+
+  s.subspec 'third' do |ss|
+    ss.source_files = 'PUtil/Classes/first/*.{h,m}'
+  end
 end

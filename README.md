@@ -22,7 +22,7 @@ pod 'PUtil'
 
 ## Author
 
-GuoPengpai, pengpaiguo@163.com
+pengpaiGuo, pengpaiguo@163.com
 
 ## License
 
